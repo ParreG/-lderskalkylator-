@@ -13,7 +13,7 @@
             Console.WriteLine("Hej och välkommen till ålderskalkylatorn.");
             Console.WriteLine("Du ska berätta för mig vilket år, månad och dag du är född så ska jag säga till dig hur gammal du är.");
             separator();
-            Console.WriteLine("Vilket år är du född? ");
+            Console.WriteLine("Vilket år är du född? "); 
             int year = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Vilket månad är du född? ");
